@@ -1,0 +1,8 @@
+name: "heavy"
+
+texture_randomization: true
+lighting_randomization: true
+camera_noise: true
+object_pose_jitter: true
+
+

@@ -1,0 +1,4 @@
+task_id: "PickCube-v1"
+max_episode_steps: 200
+
+

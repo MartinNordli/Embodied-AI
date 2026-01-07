@@ -1,0 +1,5 @@
+name: "dinov2_frozen"
+freeze: true
+features_dim: 384
+
+

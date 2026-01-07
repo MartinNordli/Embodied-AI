@@ -1,0 +1,5 @@
+mode: "rgb"
+image_size: [84, 84]
+frame_stack: 1
+
+

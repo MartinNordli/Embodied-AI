@@ -1,0 +1,38 @@
+# Base experiment config (Hydra-style layout, but usable as plain YAML too)
+seed: 0
+device: "cuda"
+
+paths:
+  runs_dir: "runs"
+  data_dir: "data_local"
+
+logging:
+  backend: "tensorboard"   # tensorboard | wandb
+  project: "embodied-ai"
+  run_name: "debug"
+  save_videos: true
+
+env:
+  task_id: "PickCube-v1"
+  num_envs: 1
+  max_episode_steps: 200
+
+obs:
+  mode: "rgb"
+  image_size: [84, 84]
+  frame_stack: 1
+
+algo:
+  name: "sac_pixels"       # sac_pixels | ppo_pixels | bc
+
+encoder:
+  name: "cnn_small"        # cnn_small | dinov2_frozen | dinov2_unfreeze
+  freeze: false
+
+augmentation:
+  name: "none"             # none | drq_light
+
+domain_randomization:
+  name: "off"              # off | light | heavy
+
+

@@ -1,0 +1,6 @@
+name: "dinov2_unfreeze"
+freeze: false
+features_dim: 384
+unfreeze_at_step: 200_000
+
+

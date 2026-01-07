@@ -1,0 +1,8 @@
+name: "drq_light"
+
+# placeholder toggles (implement in obs pipeline)
+random_crop: true
+color_jitter: true
+blur: false
+
+

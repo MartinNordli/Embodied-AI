@@ -1,0 +1,8 @@
+name: "light"
+
+# placeholder knobs (implement in env randomization hooks)
+texture_randomization: true
+lighting_randomization: true
+camera_noise: false
+
+

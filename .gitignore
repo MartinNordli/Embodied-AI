@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Run artifacts (local)
+runs/
+!runs/.gitkeep
+
+# Local datasets / caches (local)
+data_local/
+!data_local/.gitkeep
+data_local/demos/
+data_local/pretrained/
+
+# ManiSkill / sim output caches (optional)
+*.mp4
+*.gif
+*.h5
+*.npz
+
+
